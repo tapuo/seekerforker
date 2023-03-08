@@ -4,11 +4,10 @@ SEEKER FORKER Ver.0.2
 Pyxelの習作で作ったＳＴＧです。９０秒間敵を倒し続けます。
 以前作りかけていた物を引っ張り出してキャラバンモードっぽい体裁を整えた物です。
 
-pyxelを入れた状態で、
 
-　play game.pyxapp
+https://kitao.github.io/pyxel/wasm/launcher/?play=tapuo.seekerforker.game
 
-でプレイできます。
+上記アドレスでwebプレイヤー版がプレイできます。
 
 
 最後に、Pyxelという素晴らしいゲームエンジンに感謝を。
