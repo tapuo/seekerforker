@@ -1,18 +1,15 @@
 import pyxel
-from background import Background
+import background
 import gui
-from scene import SceneTitle
+import scene
 import res
 
 class Main:
     def __init__(self):
         pyxel.init(120, 160, title="SEEKER FORKER Ver.0.2", fps=60)
-        # pyxel.init(256, 192, title="SEEKER FORKER Ver.0.2", fps=60)
-        # pyxel.colors.from_list(res.pal_1)
         res.resourceSetup()
-        self.scene = SceneTitle()
-        self.background = Background()
-        # pyxel.font.load(0,0,"assets/font_msx.png") #フォント差し替え
+        self.scene = scene.SceneTitle()
+        self.background = background.Background()
         pyxel.font.load(0,0,"assets/font.png") #フォント差し替え
         pyxel.run(self.update, self.draw)
 
