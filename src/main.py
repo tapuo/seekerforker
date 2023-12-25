@@ -1,4 +1,6 @@
 import pyxel
+pyxel.init(120, 160, title="SEEKER FORKER Ver.0.2", fps=60)
+
 from background import Background
 import gui
 from scene import SceneTitle
@@ -6,7 +8,7 @@ import res
 
 class Main:
     def __init__(self):
-        pyxel.init(120, 160, title="SEEKER FORKER Ver.0.2", fps=60)
+        # pyxel.init(120, 160, title="SEEKER FORKER Ver.0.2", fps=60)
         # pyxel.init(256, 192, title="SEEKER FORKER Ver.0.2", fps=60)
         # pyxel.colors.from_list(res.pal_1)
         res.resourceSetup()
