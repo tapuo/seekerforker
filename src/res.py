@@ -4,7 +4,7 @@ import pyxel
 from vec2 import Rect
 
 #パレット　オリジナル
-pal_0 = pyxel.colors.to_list()
+# pal_0 = pyxel.colors.to_list()
 #パレット　ＭＳＸ１風
 pal_1 = [0x000000, #0
          0x010101, #1
