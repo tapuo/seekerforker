@@ -113,5 +113,5 @@ def animeData(key):
 #あれこれ読み込み
 def resourceSetup():
     pyxel.load("assets/my_resource.pyxres", False, False)
-    pyxel.image(0).load(0,0,"assets/img.png")
+    pyxel.images[0].load(0,0,"assets/img.png")
     # pyxel.image(0).load(0,0,"assets/img_msx.png")
